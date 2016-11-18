@@ -11,6 +11,8 @@ namespace LonghornMusic.Models
     {
         public Int32 GenreId { get; set; }
 
+        [Required]
+        [Display(Name = "Genre")]
         public string GenreName { get; set; }
 
         public virtual List<Song> Songs { get; set; }

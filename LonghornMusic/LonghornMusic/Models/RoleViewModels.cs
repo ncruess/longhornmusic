@@ -1,7 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
-//TODO: Change the namespace here to match your project's name
 namespace LonghornMusic.Models
 {
     public class RoleEditModel
