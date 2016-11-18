@@ -9,7 +9,7 @@ using System.Web.Mvc;
 
 
 //TODO: Change the namespace here to match your project's name
-namespace longhornmusic.Models
+namespace LonghornMusic.Models
 {
     public class AppRole: IdentityRole
     {

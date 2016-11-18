@@ -5,7 +5,7 @@ using System.Web;
 using System.Data.Entity;
 using System.ComponentModel.DataAnnotations;
 
-namespace longhornmusic.Models
+namespace LonghornMusic.Models
 {
     public class Purchase
     {

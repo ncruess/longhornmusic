@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 
 //TODO: Change the namespace here to match your project's name
-namespace longhornmusic.Models
+namespace LonghornMusic.Models
 {
     public class RoleEditModel
     {

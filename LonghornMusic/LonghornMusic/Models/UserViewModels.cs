@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using Microsoft.AspNet.Identity;
 
-namespace longhornmusic.Models
+namespace LonghornMusic.Models
 {
     public class LoginViewModel
     {

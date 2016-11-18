@@ -5,7 +5,7 @@ using System.Web;
 using System.ComponentModel.DataAnnotations;
 using System.Data.Entity;
 
-namespace longhornmusic.Models
+namespace LonghornMusic.Models
 {
     public class ItemDetail
     {
