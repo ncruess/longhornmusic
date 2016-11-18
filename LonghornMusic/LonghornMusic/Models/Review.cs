@@ -8,10 +8,7 @@ namespace LonghornMusic.Models
 {
     public class Review
     {
-        public Int32 ReviewID { get; set; }
-
-        [Display("Review Author")]
-        public virtual Customer Author { get; set; }
+        public Int32 ReviewId { get; set; }
 
         public virtual List<SongReview> SongReviewsList { get; set; }
         

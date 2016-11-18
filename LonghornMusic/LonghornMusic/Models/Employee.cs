@@ -9,7 +9,7 @@ namespace LonghornMusic.Models
     public class Employee : AppUser
     {
         [Required(ErrorMessage="Social Security Number is required.")]
-        [Display("Social Security Number")]
+        [Display(Name = "Social Security Number")]
         public string SSN { get; set; }
 
     }

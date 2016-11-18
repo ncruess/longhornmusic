@@ -8,18 +8,18 @@ namespace LonghornMusic.Models
 {
     public class Customer : AppUser
     {
-        public Int32 CustomerID { get; set; }
+        public Int32 CustomerId { get; set; }
 
-        [Display("Credit Cards")]
+        [Display(Name = "Credit Cards")]
         public List<string> CreditCards { get; set; }
 
-        [Display("Your Reviews")]
+        [Display(Name = "Your Reviews")]
         public virtual List<Review> CustomerReviews { get; set; }
 
-        [Display("Your Music Collection")]
+        [Display(Name = "Your Music Collection")]
         public virtual List<Song> MusicOwned { get; set; }
 
-        [Display("Order History")]
+        [Display(Name = "Order History")]
         public virtual List<Purchase> OrderHistory { get; set; }
     }
 }

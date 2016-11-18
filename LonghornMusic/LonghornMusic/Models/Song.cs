@@ -17,7 +17,7 @@ namespace LonghornMusic.Models
 
         public virtual List<SongReview> SongReviews { get; set; }
 
-        public virtual List<Arist> SongArtists { get; set; }
+        public virtual List<Artist> SongArtists { get; set; }
 
         public virtual Album SongAlbum { get; set; }
 

@@ -8,7 +8,7 @@ namespace LonghornMusic.Models
 {
     public class Artist
     {
-        public Int32 ArtistID { get; set; }
+        public Int32 ArtistId { get; set; }
 
         [Display(Name = "Artist Name")]
         [Required(ErrorMessage="Arist Name is required.")]

@@ -8,16 +8,19 @@ namespace LonghornMusic.Models
 {
     public class AlbumReview
     {
-        public Int32 AlbumReviewID { get; set; }
+        public Int32 AlbumReviewId { get; set; }
 
         [Required(ErrorMessage = "Please select a score.")]
-        [Display("Score")]
+        [Display(Name = "Score")]
         public Int32 AlbumScore { get; set; }
 
-        [Display("Review Text (optional)")]
+        [Display(Name = "Review Text (optional)")]
         public string AlbumReviewText { get; set; }
 
-        [Display("Album")]
+        [Display(Name = "Review Author")]
+        public virtual Customer AlbumReviewAuthor { get; set; }
+
+        [Display(Name = "Album")]
         public virtual Artist ReviewedAlbum { get; set; }
     }
 }
